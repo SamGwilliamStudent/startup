@@ -20,3 +20,5 @@ Key Features
 
 ## Website Layout Photo
 ![StartupLayout](https://user-images.githubusercontent.com/112889657/214948931-27d051f4-6edc-4298-8963-298b82fb7e3f.jpeg)
+
+Command to SSH into my server ssh -i ~/Desktop/CS260/Production.pem ubuntu@3.137.42.181
