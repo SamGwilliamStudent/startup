@@ -4,50 +4,56 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.svg" />
+        <link rel="stylesheet" href="main.css"/>
         <title>Habit Tracker</title>
     </head>
     <body>
-        <h1>MENU</h1>
-        <nav>
-            <a href="profile.html">Profile</a>
-            <a href="index.html">Home</a>
-        </nav>
+        <div class="nav_menu">
+            <h1 class="menu_link_header">MENU</h1>
+            <nav>
+                <a href="profile.html" class="menu_link">Profile</a>
+                <a href="habits.html" class="menu_link">Home</a>
+            </nav>
+        </div>
+        <div class="user_stats">
+            <div class="user_email">
+                <h1>Email</h1>
+                <p>PLACEHOLDER EMAIL</p>
+            </div>
 
-        <div class="UserEmail">
-            <h1>Email</h1>
-            <p>PLACEHOLDER EMAIL</p>
+            <div class="user_cards_created">
+                <h1>Habits Started</h1>
+                <p>12345</p>
+            </div>
+
+            <div class="user_habit_stat">
+                <h1>Habits Created</h1>
+                <p>12345</p>
+            </div>
+
+            <div class="user_habits_to_90">
+                <h1>Lifestyle Changes</h1>
+                <p>12345</p>
+            </div>
+
+            <div class = "user_longest_streak">
+                <h1>Longest Streak</h1>
+                <p>123</p>
+            </div>
         </div>
 
-        <div class="UserCardsCreated">
-            <h1>Habits Started</h1>
-            <p>12345</p>
-        </div>
+        <div class="profile_buttons">
+            <div>
+                <button class = "send_notification" type="button">Inspire a Fellow User</button>
+            </div>
 
-        <div class="UserHabitStat">
-            <h1>Habits Created</h1>
-            <p>12345</p>
-        </div>
+            <div>
+                <button class = "log_out" type="button">LogOut</button>
+            </div>
 
-        <div class="UserHabitsTo90">
-            <h1>Lifestyle Changes</h1>
-            <p>12345</p>
-        </div>
-
-        <div class = "UserLongestStreak">
-            <h1>Longest Streak</h1>
-            <p>123</p>
-        </div>
-
-        <div>
-            <button class = "SendNotification" type="button">Inspire a Fellow User</button>
-        </div>
-
-        <div>
-            <button class = "LogOut" type="button">LogOut</button>
-        </div>
-
-        <div>
-            <button class = "ChangePassword" type="button">Change Password</button>
+            <div>
+                <button class = "change_password" type="button">Change Password</button>
+            </div>
         </div>
 
     </body>

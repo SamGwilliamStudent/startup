@@ -1,5 +1,16 @@
 .nav_menu {
-    text-align: left;
+    text-align: center;
+    background-color: lightgray;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.menu_link_header{
+    display: inline;
+}
+
+.menu_link{
+    display: inline;
 }
 
 body{
@@ -81,7 +92,6 @@ footer {
 
 .login_body{
     text-align: center;
-    text-size: 2em;
 }
 
 .input_buttons{
@@ -108,4 +118,71 @@ footer {
     font-size: x-large;
     margin-top: 150px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* profile.html elements */
+
+.profile_body{
+    align-items: center;
+}
+
+.user_stats{
+    text-align: center;
+    margin: 15px;
+}
+
+.user_email{
+    border: medium solid black;
+    margin: 10px;
+    font-size: 1em;
+}
+
+.user_cards_created{
+    border: medium solid black;
+    margin: 10px;
+    font-size: 1em;
+
+}
+
+.user_habit_stat{
+    border: medium solid black;
+    margin: 10px;
+    font-size: 1em;
+
+
+}
+
+.user_habits_to_90{
+    border: medium solid black;
+    margin: 10px;
+    font-size: 1em;
+
+}
+
+.user_longest_streak{
+    border: medium solid black;
+    margin: 10px;
+    font-size: 1em;
+
+}
+
+.profile_buttons{
+    display:flex;
+}
+
+.send_notification{
+    display: inline;
+    margin: 5px;
+}
+
+.log_out{
+    display: inline;
+    margin: 5px;
+
+}
+
+.change_password{
+    display: inline;
+    margin: 5px;
+
 }
