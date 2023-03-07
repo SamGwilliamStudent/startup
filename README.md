@@ -27,7 +27,7 @@ Using the console to debug is very important. I was having issues with my simon 
 
 
 ## Midterm Notes
-"<div>" creates a division element
+"<div" creates a division element
 
 A CName DNS record type points you to another DNS record
 
@@ -59,15 +59,15 @@ Sum takes the sum of values in an array
 
 Filter filters through an array with a specified filter
 
-"<ul></ul>" makes an unordered list.
+"<ul" makes an unordered list.
 
-"<li></li>" is a list element
+"<li" is a list element
 
 Query Selector all would give all elements
 
 Query selector would just give a single element
 
-Use the "<a></a>" tag to create valid hyperlinks
+Use the "<a" tag to create valid hyperlinks
 
 DOM textContent will set the child text for an element.
 
