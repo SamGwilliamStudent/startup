@@ -27,32 +27,58 @@ Using the console to debug is very important. I was having issues with my simon 
 
 
 ## Midterm Notes
-<div> creates a division element
+"<div>" creates a division element
+
 A CName DNS record type points you to another DNS record
+
 An A DNS record points directly to an IP address
+
 @import will allow you to pull up a google font using CSS
+
 In promises, there is only a catch if reject is called. Resolve’s parameter is trivial, so even if it is false then it still resolves.
+
 Valid JSON strings look like this {“x”:3}. The Key value needs to have double quotes. Undefined doesn’t work as a value. Null works but not undefined.
+
 .class is the class selector in CSS
+
 #id is the ID selector
+
 p would do all the paragraphs in the sheet
+
 JS needs to be within <script> </script> tags. You can link straight to a source, put a function right inline.
-(/A|f/i) is anything that has an A in it but i makes it incase sensitive. f/ is anything that starts with an f.
+
+"(/A|f/i)" is anything that has an A in it but i makes it incase sensitive. f/ is anything that starts with an f.
+
 Pals Before Marriage. Content, Padding, Margin, Border. Padding element would put space around the content.
+
 Reduce takes an array and takes it down to one value
+
 Map takes an array and maps it to an array of equal size.
+
 Sum takes the sum of values in an array
+
 Filter filters through an array with a specified filter
-<ul></ul> makes an unordered list.
-<li></li> is a list element
+
+"<ul></ul>" makes an unordered list.
+
+"<li></li>" is a list element
+
 Query Selector all would give all elements
+
 Query selector would just give a single element
-Use the <a></a> tag to create valid hyperlinks
+
+Use the "<a></a>" tag to create valid hyperlinks
+
 DOM textContent will set the child text for an element.
+
 Subdomains include the main domain but with extra stuff up front.
+
 JS Objects don’t use any equal sign. Just use a colon. JSON objects and JS objects need that. You don’t need quotes around a key in JS objects.
+
 Chmod +x adds the executable tag to a file.
+
 Ssh secure shell
+
 Sudo admin priviledges
+
 Ls -la lists out contents
-![image](https://user-images.githubusercontent.com/112889657/223508490-3ee28229-602d-43fa-8cb1-85a2b54b7490.png)
