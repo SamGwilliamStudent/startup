@@ -166,6 +166,12 @@ footer {
 
 }
 
+.profile_page_facts{
+    border: medium solid black;
+    margin: 10px;
+    font-size: 1em;
+}
+
 .profile_buttons{
     display:flex;
 }
