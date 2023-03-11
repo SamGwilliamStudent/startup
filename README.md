@@ -82,3 +82,5 @@ Ssh secure shell
 Sudo admin priviledges
 
 Ls -la lists out contents
+
+Using JavaScript was an interesting experience for me. I had a hard time working with some aspects of my project and found myself jumping into the console to work them out. I learned that JavaScript can be very useful and create awesome functionality when you put a little bit of work into the website. I also learned how difficult it can be to get all 3 technologies working together. (HTML, CSS, JS)
