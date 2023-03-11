@@ -15,38 +15,50 @@
                 <a href="habits.html" class="menu_link">Home</a>
             </nav>
         </div>
-
-        <h1 class="habit_section_header">YOUR HABITS</h1>
+        <div>
+        <h1 class="habit_section_header">YOUR HABIT</h1>
         <div class="habit_section">
-            <p class="habit_emoji">🏋🏽‍♀️</p>
-            <p class="habit_name">Exercise Daily</p>
-            <p class="habit_duration"> 23</p>
+            <p class="habit_emoji"></p>
+            <p class="habit_name"></p>
+            <p class="habit_duration">0</p>
         </div>
-
-        <div class="habit_section">
+        <div class="new_habit_section">
+            <input class="new_habit_input" id= "new_habit_emoji" placeholder="Emoji for your habit">
+            <input class="new_habit_input" id="new_habit_name" placeholder="Name for your habit">
+            <button class = "new_habit_section_button" type="button" onclick="updateHabit()">Update Habit</button>
+            <button class = "new_habit_section_button" type="button" onclick="incrementValue()">Increment Day Count</button>
+        </div>
+    </div>
+        
+        <!---
+        <div class="habit_section2">
             <p class="habit_emoji">📚</p>
             <p class="habit_name">Read a Book</p>
             <p class="habit_duration">11</p>
         </div>
 
-        <div class="habit_section">
+        <div class="habit_section3">
             <p class="habit_emoji">💤</p>
             <p class="habit_name">8 hours of Sleep</p>
             <p class="habit_duration">7</p>
         </div>
         
-        <div class="habit_section">
+        <div class="habit_section4">
             <p class="habit_emoji">💤</p>
             <p class="habit_name">8 hours of Sleep</p>
             <p class="habit_duration">7</p>
+        </div>
+        -->
+        <div class="inspiration">
+            <h1>To Help You Achieve Your Goals:</h1>
+            <div class="user_message">
+                <p class="message">Hey, </p>
+                <p class="user_name">User</p>
+            </div>
+            <p style="text-align: center;">Remember that Sometimes it is difficult to keep up habits. Here is an inspirational quote from Gandhi!</p>
+            <img src="https://i.pinimg.com/736x/e3/2a/0d/e32a0dda49e230381d3d703f79a02ca5.jpg">
         </div>
 
-        <div class="new_habit_section">
-            <input class="new_habit_input_emoji" placeholder="Emoji for your new habit">
-            <input class="new_habit_input_name" placeholder="Name for your new habit">
-            <button class = "new_habit_section_button" type="button">TRACK NEW HABIT</button>
-        </div>
-        
     </body>
     
     <footer>
@@ -54,5 +66,6 @@
         <a href="mailto: gwill34@byu.edu" class="footer_element">Contact Me</a>
         <a href="https://github.com/SamGwilliamStudent/startup.git" class="footer_element">View the Github Repository Here</a>
     </footer>
+    <script src="habits.js"></script>
     
 </html>
