@@ -86,3 +86,5 @@ Ls -la lists out contents
 Using JavaScript was an interesting experience for me. I had a hard time working with some aspects of my project and found myself jumping into the console to work them out. I learned that JavaScript can be very useful and create awesome functionality when you put a little bit of work into the website. I also learned how difficult it can be to get all 3 technologies working together. (HTML, CSS, JS)
 
 One thing that I learned from using express was the importance of the file structure. I was having a bit of an issue with it and ended up having to rely a lot on the simon project structure so that was a big help. It had a hard time finding the home page. Thankfully it ended up working, but I think the power of using get requests could be super fun to implement in projects going forward.
+
+I thought it was interesting how we can use MongoDB with our projects. I have used relational databases before but haven't used a JSON oriented one like Mongo. I thought it was nice how quickly and easily you can hook things up to your project for long-term storage.
