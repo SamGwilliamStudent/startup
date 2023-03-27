@@ -88,3 +88,5 @@ Using JavaScript was an interesting experience for me. I had a hard time working
 One thing that I learned from using express was the importance of the file structure. I was having a bit of an issue with it and ended up having to rely a lot on the simon project structure so that was a big help. It had a hard time finding the home page. Thankfully it ended up working, but I think the power of using get requests could be super fun to implement in projects going forward.
 
 I thought it was interesting how we can use MongoDB with our projects. I have used relational databases before but haven't used a JSON oriented one like Mongo. I thought it was nice how quickly and easily you can hook things up to your project for long-term storage.
+
+I thought that one interesting thing that I learned from this assignment is how things are encrypted within the database. It makes a lot of sense cause that would be a centralized attack point for a lot of access into people's private information, but if the passwords are hashed then even if someone gains access it isn't too useful to them. 
