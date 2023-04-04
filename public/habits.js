@@ -5,7 +5,28 @@ function updateHabit(){
     let newHabitTextEl = document.querySelector('.habit_name');
     let newHabitEmojiEl = document.querySelector('.habit_emoji');
 
+    try {
+        const habitToJSON = {
+            emoji: emojiElement.value,
+            name: nameElement.value,
+        };
+        const response = fetch('/api/habit', {
+            method: 'POST',
+            headers: {'content-type': 'application/json'},
+            body: JSON.stringify(habitToJSON),
+        })
+        localStorage('habitResponse', response);
+
+        
+    } catch {
+        console.log('Error when trying to add habit to DB');
+    }
+
     setEmojiAndText(newHabitTextEl, newHabitEmojiEl, newHabit);
+}
+
+function loadHabit(){
+
 }
 
 function setEmojiAndText(elementOne, elementTwo, habitObject){
@@ -37,16 +58,13 @@ function loadHabit() {
         habit = response.json();
         localStorage.setItem('habit', JSON.stringify(habit))
     } catch {
-        const habitText = localStorage.getItem('habit');
-        if(habitText) {
-            habit = JSON.parse(habitText)
-        }
+        console.log("Unable to load habit")
     }
     displayHabit(habit);
 }
 
 function displayHabit(habit) {
-
+    //Implement the loading feature of this part.
 }
 
 function displayQuote(data) {

@@ -2,10 +2,14 @@ function login() {
     const nameElement = document.querySelector("#username");
 
     try {
+        const nameElementToJSON = {
+            username: nameElement.value,
+            loggedIn: 'yes',
+        };
         const response = fetch('/api/user', {
             method: 'POST',
             headers: {'content-type': 'application/json'},
-            body: JSON.stringify(nameElement),
+            body: JSON.stringify(nameElementToJSON),
         })
         localStorage.setItem("username", nameElement.value);
         localStorage.setItem('user', response);
