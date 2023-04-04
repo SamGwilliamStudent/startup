@@ -1,8 +1,8 @@
 const { MongoClient } = require('mongodb');
 
 const userName = process.env.MONGOUSER;
-const password = process.env.MONGPASSWORD;
-const hostname = process.env.MONGHOSTNAME;
+const password = process.env.MONGOPASSWORD;
+const hostname = process.env.MONGOHOSTNAME;
 
 if (!userName) {
     throw Error('Database not configured. Set environment variables');
@@ -27,7 +27,7 @@ function setUser(username) {
 }
 
 function getUser() {
-    const user = userCollection.find({user: $});
+    const user = userCollection.find({user: {$exists: true}});
     return user;
 }
 
@@ -36,7 +36,7 @@ function setHabit(habit) {
 }
 
 function getHabit() {
-    const habit = habitCollection.find({habit: $});
+    const habit = habitCollection.find({habit: {$exists: true}});
     return habit;
 }
 
